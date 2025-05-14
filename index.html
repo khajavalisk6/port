@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaik Khajavali - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">Khajavali</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- FIXED Contact Me Button -->
+      <button class="contact-button" onclick="scrollToSection('contact')">Contact Me</button>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <h3>Hello There!</h3>
+    <h1>I'm <span style="color: black;">Shaik Khajavali</span>, IT Student from India.</h1>
+    <p>Passionate about Technology, Cloud Computing, and Data Science!</p>
+    <div class="hero-buttons">
+      <a href="https://drive.google.com/uc?export=download&id=1nOpf7J-MciWyAA1vRN2ioZcP_BzYxI5_" target="_blank">
+        <button>Resume</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>B.Tech in Information Technology at Bapatla Engineering College (7.87 CGPA). Completed Intermediate with 97% at Sri Chaitanya Junior College. Passionate about automating and innovating with cloud and data science technologies.</p>
+    <div class="facts">
+      <div>600+ Hours of Learning</div>
+      <div>50+ Projects & Labs</div>
+      <div>18+ Skills Acquired</div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Services I Provide</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>RPA Automation</h3>
+        <p>Hands-on experience with UiPath RPA to automate repetitive business tasks.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Computing</h3>
+        <p>Developed face recognition solutions using AWS Rekognition, S3, Lambda & DynamoDB.</p>
+      </div>
+      <div class="card">
+        <h3>Data Science</h3>
+        <p>Built fraud detection models using Python, Pandas, NumPy, Matplotlib.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C, Java, Python, HTML, CSS, JavaScript</li>
+      <li>MySQL Database</li>
+      <li>Python Libraries: Pandas, NumPy, Matplotlib</li>
+      <li>Data Structures and Algorithms Fundamentals</li>
+    </ul>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cloud Computing with AWS – Internshala</li>
+      <li>Data Science Virtual Internship – AICTE CodingRaja</li>
+      <li>UiPath RPA – Vasista Technologies</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>1. Face Recognition System using AWS</h3>
+      <ul>
+        <li>Led development achieving 98% facial identification accuracy.</li>
+        <li>Used AWS Rekognition for image/video analysis, improving performance by 40%.</li>
+        <li>Employed AWS Lambda & S3 for secure, GDPR-compliant data handling.</li>
+        <li>Optimized architecture to reduce latency by 25%.</li>
+        <li>Resulted in 30% increase in client satisfaction.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>2. Email Spam Detection using Data Science</h3>
+      <ul>
+        <li>Built ML model with 95% accuracy using Python, scikit-learn, and NLP.</li>
+        <li>Processed 100,000-email dataset to extract key features.</li>
+        <li>Deployed via Flask, supporting 10,000+ emails/day.</li>
+        <li>Improved security and UX with integration into existing systems.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>3. StudyHub – Smart Learning Mobile App</h3>
+      <ul>
+        <li>Created using React Native for iOS & Android.</li>
+        <li>Personalized learning with advanced algorithms, increasing engagement by 35%.</li>
+        <li>AI-driven analytics led to a 25% boost in study efficiency.</li>
+        <li>Reduced app crash rate by 40% through testing/debugging.</li>
+        <li>UI/UX improvements raised satisfaction by 30%.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Phone: +91 9652048218</p>
+    <p>Email: <a href="mailto:kkhajavali82@gmail.com">kkhajavali82@gmail.com</a></p>
+    <p>Location: Kommuru, Andhra Pradesh, India</p>
+  </section>
+
+  <!-- Scroll function for button -->
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
